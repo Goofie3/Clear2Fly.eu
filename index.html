@@ -5,35 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clear2Fly.eu - Drone Safety</title>
     <style>
+        /* Basis stijl */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            text-align: center;
         }
-        .container {
+
+        /* De witte kaart in het midden */
+        .card {
             background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
         }
-        h1 { color: #2c3e50; }
-        .logo { font-size: 3rem; margin-bottom: 1rem; }
-        .status { color: #27ae60; font-weight: bold; }
+
+        /* Logo instellingen */
+        .logo {
+            max-width: 100%;
+            height: auto;
+            width: 250px; /* Je kunt dit getal aanpassen om het logo groter/kleiner te maken */
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #1a365d;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #4a5568;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background-color: #ebf8ff;
+            color: #2b6cb0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="assets/clear2fly.png" alt="Clear2Fly Logo" width="250">
+
+    <div class="card">
+        <img src="assets/clear2fly.png" alt="Clear2Fly Logo" class="logo">
+        
         <h1>Clear2Fly.eu</h1>
-        <p>Wij bouwen aan een drone-veiligheidskaart voor Nederland.</p>
-        <p class="status">Momenteel in ontwikkeling...</p>
-        <hr>
-        <small>&copy; 2026 Clear2Fly.eu</small>
+        <p>Wij werken aan een luchtruim APP voor dronepiloten. Onze interactieve kaart met no-fly zones is momenteel in ontwikkeling.</p>
+        
+        <div class="status-badge">PROJECT STATUS: DEVELOPMENT</div>
+        
+        <p style="margin-top: 30px; font-size: 0.8rem; color: #a0aec0;">
+            &copy; 2026 Clear2Fly.eu
+        </p>
     </div>
+
 </body>
 </html>
