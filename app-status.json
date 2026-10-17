@@ -3,6 +3,10 @@
      "min_version": "1.0.0",
      "store_url": "https://play.google.com/store/apps/details?id=eu.clear2fly.clear2fly",
      "notice": null,
-     "disabled_message": null,
+      "disabled_message": {
+    "nl": "We werken de zonegegevens bij. Probeer het later opnieuw.",
+    "en": "We are updating the zone data. Please try again later.",
+    "de": "Wir aktualisieren die Zonendaten. Bitte versuche es später erneut."
+     },
      "zone_source_url": null
    }
