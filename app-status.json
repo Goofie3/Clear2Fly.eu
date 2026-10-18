@@ -1,5 +1,5 @@
    {
-     "enabled": false,
+     "enabled": enable,
      "min_version": "1.0.0",
      "store_url": "https://play.google.com/store/apps/details?id=eu.clear2fly.clear2fly",
      "notice": null,
